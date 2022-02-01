@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rucksackmod",
+  "version": "${version}",
+  "name": "Rucksack",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/rucksack-mod"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/rucksackmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nytz.mc.rucksack.fabric.RucksackModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "architectury": ">=3.4.9"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
